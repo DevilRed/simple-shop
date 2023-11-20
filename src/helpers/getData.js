@@ -5,3 +5,15 @@ export const getData = () => {
     resolve(data);
   });
 };
+
+export const getItemById = (id) => {
+  return new Promise((resolve, reject) => {
+    const item = data.find((el) => (el.id = id));
+
+    if (item) {
+      resolve(item);
+    } else {
+      reject({ error: "No item found" });
+    }
+  });
+};
