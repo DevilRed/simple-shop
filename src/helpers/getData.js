@@ -7,9 +7,8 @@ export const getData = () => {
 };
 
 export const getItemById = (id) => {
-  console.log("id" + id);
   return new Promise((resolve, reject) => {
-    const item = data.find((el) => (el.id = id));
+    const item = data.find((el) => el.id === parseInt(id));
 
     if (item) {
       resolve(item);

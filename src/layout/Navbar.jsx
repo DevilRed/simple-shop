@@ -13,7 +13,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className="menu-link" to="/productos">
+          <Link className="menu-link" to="/products">
             Productos
           </Link>
         </li>
