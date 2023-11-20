@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./layout/Layout";
 import { ItemListContainer } from "./components/ItemListContainer";
+import { ItemDetailContainer } from "./components/ItemDetailContainer";
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
           <Route
             index
             element={<ItemListContainer></ItemListContainer>}
+          ></Route>
+          <Route
+            path="/item/:id"
+            element={<ItemDetailContainer></ItemDetailContainer>}
           ></Route>
         </Route>
       </Routes>
