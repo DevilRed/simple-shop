@@ -18,22 +18,22 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className="menu-link" to="/productos/medias">
+          <Link className="menu-link" to="/products/medias">
             Medias
           </Link>
         </li>
         <li>
-          <Link className="menu-link" to="/productos/pantalones">
+          <Link className="menu-link" to="/products/pantalones">
             Pantalones
           </Link>
         </li>
         <li>
-          <Link className="menu-link" to="/productos/remeras">
+          <Link className="menu-link" to="/products/remeras">
             Remeras
           </Link>
         </li>
         <li>
-          <Link className="menu-link" to="/productos/buzos">
+          <Link className="menu-link" to="/products/buzos">
             Buzos
           </Link>
         </li>
