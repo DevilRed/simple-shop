@@ -38,11 +38,6 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className="menu-link" to="/nosotros">
-            Nosotros
-          </Link>
-        </li>
-        <li>
           <Link className="menu-link" to="/contacto">
             Contacto
           </Link>
