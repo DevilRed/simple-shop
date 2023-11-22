@@ -174,3 +174,6 @@
   border: 2px solid var(--clr-main);
   outline: 2px solid var(--clr-main);
 }
+.error {
+  color: #ff0000;
+}
