@@ -16,7 +16,7 @@ export const ItemDetailContainer = () => {
 
   useEffect(() => {
     getItem;
-  }, [id]);
+  }, [getItem]);
 
   return <div>{item && <ItemDetail item={item} />}</div>;
 };
