@@ -126,7 +126,7 @@
 .item-count button,
 .agregar-al-carrito,
 .enviar {
-  background-color: var(--clr-main);
+  background-color: #a0a0a0;
   border: 0;
   width: 2rem;
   height: 2rem;

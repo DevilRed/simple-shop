@@ -4,7 +4,7 @@ import { Item } from "./Item";
 
 export const ItemList = ({ products }) => {
   let category = useParams().category;
-  console.log(category);
+  // console.log(category);
   if (typeof category === "undefined") {
     category = "Products";
   }
