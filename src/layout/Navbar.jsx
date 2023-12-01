@@ -15,22 +15,22 @@ export const Navbar = () => {
         </li>
         <li>
           <Link className="menu-link" to="/products">
-            Productos
+            Product
           </Link>
         </li>
         <li>
           <Link className="menu-link" to="/products/medias">
-            Medias
+            Socks
           </Link>
         </li>
         <li>
           <Link className="menu-link" to="/products/pantalones">
-            Pantalones
+            Pants
           </Link>
         </li>
         <li>
           <Link className="menu-link" to="/products/remeras">
-            Remeras
+            T-shirts
           </Link>
         </li>
         <li>
@@ -40,7 +40,7 @@ export const Navbar = () => {
         </li>
         <li>
           <Link className="menu-link" to="/contact">
-            Contacto
+            Contact
           </Link>
         </li>
         <li>
